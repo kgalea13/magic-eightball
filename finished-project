@@ -1,0 +1,60 @@
+let userName = 'Kristin';
+userName ? console.log(`Hello ${userName}`): console.log('Hello!');
+
+let userQuestion = `Will I, ${userName}, become an awesome web developer?`
+console.log(userQuestion);
+
+let randomNumber = Math.floor(Math.random() * 8);
+
+let eightBall = randomNumber;
+/* switch (eightBall){
+  case 0:
+  console.log('It is certain');
+  break;
+  case 1:
+  console.log('It is decidedly so')
+  break;
+  case 2:
+  console.log('I see this in your future')
+  break;
+  case 3:
+  console.log('Predicting now, and it's a "Yes"')
+  break;
+  case 4:
+  console.log('You can count on it')
+  break;
+  case 5:
+  console.log('My sources say "YES"')
+  break;
+  case 6:
+  console.log('Outlook is good')
+  break;
+  case 7:
+  console.log('Signs point to yes')
+  break;
+} 
+
+*/
+if(eightBall === 0){
+  console.log('It is certain');
+} else if(eightBall === 1){
+  console.log('I see this in your future')
+} else if(eightBall === 2){
+  console.log('Count on it!')
+} else if(eightBall === 3){
+  console.log('My sources say "Yes"')
+} else if(eightBall === 4){
+  console.log('Outlook is good')
+} else if(eightBall === 5){
+  console.log('Signs point to "yes"')
+} else if(eightBall === 6){
+  console.log('Reply is clear as a bell. "Yes"')
+} else if(eightBall === 7){
+  console.log('Prediction looks good')
+} 
+
+
+
+console.log(`The Magic Eight Ball Says: ${eightBall}. You are on your way ${userName}!`)
+
+  
